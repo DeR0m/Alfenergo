@@ -19,12 +19,13 @@
     font-style: normal;
 }
 
-
 *,
 *::before,
 *::after{
     box-sizing: border-box;
+    
 }
+
 
 html{
     --orange: #fdba2d;
@@ -35,7 +36,7 @@ html{
     --font: 'OpenSans', sans-serif;
     --wrapWidth: 1920px;
     --contWidth: 1400px;
-   --headFont: 'SourceSansPro', sans-serif;
+    --headFont: 'SourceSansPro', sans-serif;
 }
 
 body{
@@ -51,15 +52,6 @@ body{
     flex-direction: column;
     overflow: hidden;
     font-style: var(--font);
-}
-
-.container{
-    max-width: var(--contWidth);    
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px;
-    flex-direction: column;
 }
 
 .header{
