@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <div class="wrapper">
@@ -107,22 +108,22 @@
                 </div>
                 <div class="project-list">
                     <div class="project-list__item">
-                        <img class="project-content__img" src="https://picsum.photos/id/0/500/350" alt="">
+                        <img class="project-list__img" src="https://picsum.photos/id/0/500/350" alt="">
                     </div>
                     <div class="project-list__item">
-                        <img class="project-content__img" src="https://picsum.photos/id/0/350/350" alt="">
+                        <img class="project-list__img" src="https://picsum.photos/id/0/350/350" alt="">
                     </div>
                     <div class="project-list__item">
-                        <img class="project-content__img" src="https://picsum.photos/id/0/350/350" alt="">
+                        <img class="project-list__img" src="https://picsum.photos/id/0/350/350" alt="">
                     </div>
                     <div class="project-list__item">
-                        <img class="project-content__img" src="https://picsum.photos/id/0/350/350" alt="">
+                        <img class="project-list__img" src="https://picsum.photos/id/0/350/350" alt="">
                     </div>
                     <div class="project-list__item">
-                        <img class="project-content__img" src="https://picsum.photos/id/0/350/350" alt="">
+                        <img class="project-list__img" src="https://picsum.photos/id/0/350/350" alt="">
                     </div>
                     <div class="project-list__item">
-                        <img class="project-content__img" src="https://picsum.photos/id/0/500/350" alt="">
+                        <img class="project-list__img" src="https://picsum.photos/id/0/500/350" alt="">
                     </div>
                 </div>
            </section>
@@ -131,9 +132,11 @@
                     <h4 class="item__header-top">Хороший выбор</h4>
                     <h2 class="item__header">Почему выбирают именно нас</h2>
                 </div>
+            
                 <div class="choose-content">
                     <div class="choose-content__item-iso">
-                        <img class="choose-content__img" src="assets/images/ChooseISO.jpg" alt="">
+                        <div class="choose-content__img-iso"></div>
+                        <!-- <img class="choose-content__img-iso" src="assets/images/ChooseISO.jpg" alt=""> -->
                         <div class="choose-content__description">
                             <i class="fas fa-certificate"></i>
                         <h5>Сертификаты</h5>
@@ -142,7 +145,8 @@
                         </div>
                     </div>
                     <div class="choose-content__item-prof">
-                        <img class="choose-content__img" src="assets/images/ChooseProf.jpg" alt="" >
+                        <div class="choose-content__img-prof"></div>
+                        <!-- <img class="choose-content__img-prof" src="assets/images/ChooseProf.jpg" alt="" > -->
                         <div class="choose-content__description">
                             <i class="fas fa-users"></i>
                         <h5>Профессионалы</h5>
@@ -155,7 +159,8 @@
                         <h5>5 лет гарантии</h5>
                             <p>Мы уверены в квалификации и ответственности наших мастеров. Если в течение гарантийного срока смонтированное оборудование выйдет из строя, специалисты готовы приехать, чтобы бесплатно устранить все проблемы. Вы можете поручить нашим мастерам любые электромонтажные работы в РБ.</p>
                         </div>
-                        <img class="choose-content__img-guar" src="assets/images/ChooseGuar.jpg" alt="">
+                        <div class="choose-content__img-guar"></div>
+                        <!-- <img class="choose-content__img-guar" src="assets/images/ChooseGuar.jpg" alt=""> -->
                     </div>
                 </div>
            </section>
@@ -172,14 +177,22 @@
                             
                         </ul>
                     </div>
-                    <div class="contact-form">
-                        <form class="subform" action="">
-                            <input type="text" placeholder="Ваше имя">
-                            <input type="tel" placeholder="Номер телефона">
-                            <input type="email" placeholder="Ваш Email">
-                            <textarea placeholder="Ваше сообщение"></textarea>
-                            <button type="submit">Связаться с нами</button>
-                        </form>
+                    <div class="contact-list">
+                        <div class="contact-list__map">
+                            <div class="item__map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d300261.09750691033!2d27.792696!3d53.988755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbca226e4c721b%3A0xa29f1d7f8e6a3070!2z0YPQuy4g0KjQutC-0LvRjNC90LDRjyAyLCDQmtC-0YDQvtC70ZHQsiDQodGC0LDQvSwg0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2sus!4v1594999090269!5m2!1sru!2sus" width="475" height="430" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                        </div>
+                    
+                        <div class="contact-form">
+                            <form class="subform" action="">
+                                <input type="text" placeholder="Ваше имя">
+                                <input type="tel" placeholder="Номер телефона">
+                                <input type="email" placeholder="Ваш Email">
+                                <textarea placeholder="Ваше сообщение"></textarea>
+                                <button type="submit">Связаться с нами</button>
+                            </form>
+                        </div>
                     </div>
                </div>
 

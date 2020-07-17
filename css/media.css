@@ -1,0 +1,58 @@
+@media(max-width: 1300px)
+{
+    
+
+    .project-list{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .contact-list__map{
+        display: none;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+}
+
+@media(max-width: 1200px)
+{
+    .service-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .service-content__item{
+        margin-right: 20px;
+    }
+    /* .project-list{
+        width: 100%;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .project-list__item{
+        width: 30%;
+        padding-right: 10px;
+        
+    }
+    .project-list__img{
+        width: 100%;        
+    } */
+
+    .choose-content{
+       text-align: center;
+        width: 100%;
+        padding: 0 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-row__item{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
