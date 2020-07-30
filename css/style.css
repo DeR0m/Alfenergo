@@ -98,7 +98,7 @@ body{
     list-style: none;
     display: flex;
     background: var(--white);
-    box-shadow: 0 0 20px rgba(253, 186, 45, 0.3);
+    box-shadow: 0 0 20px rgba(44, 44, 44, 0.3);
 }
 
 .logo__container{
@@ -133,7 +133,7 @@ body{
 .bottom-navigation__row{
     display: flex;  
     padding: 0; 
-    padding-right: 125px;
+    margin-right: 125px;
     font-size: 18px;
 }
 
@@ -436,6 +436,7 @@ body{
     border: 2px solid var(--lightgrey);   
     text-align: center;
     margin-right: 11px;
+    margin: 0 11px 7px 0;
 }
 
 .choose-content__icon{
