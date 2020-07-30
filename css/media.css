@@ -42,8 +42,23 @@
 
 @media(max-width: 1250px)
 {
+    .header-top__contacts{
+        padding-left: 30px;
+    }
+    .logo__container{
+        padding-left: 50px;
+    }
+    .home-header{
+        padding: 0 50px;
+    }
     .home-header p{
         width: 70%;
+    }
+    .about{
+        padding: 0 50px;
+    }
+    .service{
+        padding: 0 50px;
     }
     .service-content{
         width: 100%;
@@ -53,12 +68,18 @@
     .service-content__item{
         margin-right: 20px;
     }
-    .service-content__item h3{    
+    .service-content__item h3{   
         width: 100%;
         font-size: 20px;
     }
     .service-content__item h3::after{
         display: none;
+    }
+    .project{
+        padding: 0 50px;
+    }
+    .choose{
+        padding: 0 50px;
     }
     .choose-content{
         padding: 0;
@@ -103,7 +124,7 @@
     }
     .contact-container{
         margin: 40px 0 40px 0;
-        padding: 5px 80px 30px 80px;
+        padding: 5px 50px 30px 50px;
     }
     .contact-container__header{
         color: var(--white);
@@ -117,6 +138,9 @@
         margin: 0;
         padding: 0;
     }
+    .footer{        
+        padding: 8px 0 8px 50px;
+    }    
 }
 
 @media(max-width: 1000px)
@@ -133,6 +157,9 @@
     .home__button{
         margin: -20px 0 0 0;
     }
+    .service-content__item{
+        width: 40%;
+    }    
     .contact-container{
         margin: 40px 0 40px 0;
         padding: 5px 80px 30px 80px;
@@ -144,13 +171,8 @@
         text-decoration: none;
         margin: 10px 15px;
     }
-    .contact-list{
-        padding: 0;
-    }
     .contact-form{
-        padding: 0;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        margin: 30px 0 30px 0;
     }
 }
 
@@ -245,5 +267,142 @@
     }
     .bottom-navigation__item:last-child{
         margin-bottom: 0;
+    }
+    .contact-container__header h2{
+        margin-top: 50px;
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 800px){
+    .service-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-content__item{
+        width: 65%;
+        margin-right: 0;
+    }
+    .contact-container{
+        padding: 5px 15px 30px 15px;
+    }
+    .contact-row__list{
+        flex-direction: column;        
+    }
+    .contact-row__item{
+        margin-bottom: 10px;
+        font-weight: normal;
+    }
+    .contact-form{
+        margin: 0 15px;
+    }
+}
+
+@media(max-width: 700px){
+    .choose-content__item-iso{
+        flex-direction: column;
+    }
+    .choose-content__item-prof{
+        flex-direction: column;
+    }
+    .choose-content__item-guar{
+        flex-direction: column-reverse;
+    }
+    .choose-content__img-iso{
+        margin: 0 auto;
+        width: 95%;
+        height: 300px;
+    }
+    .choose-content__img-prof{
+        margin: 0 auto;
+        width: 95%;
+        height: 300px;
+    }
+    .choose-content__img-guar{
+        margin: 0 auto;
+        width: 95%;
+        height: 300px;
+    }
+    .choose-content__description{
+        margin: 7px auto;
+    }
+}
+
+@media(max-width: 600px){
+    .item__header{
+        font-size: 35px;
+    }
+    .logo__container{
+        padding-left: 15px;
+    }
+    .home-header{
+        padding: 0 15px;
+    }
+    .home-header h1{
+        margin-top: 50px;
+    }
+    .home-header p{
+        font-size: 25px;
+    }
+    .home__button{
+        margin: 0;
+    }
+    .about{
+        padding: 0 15px;
+    }
+    .service{
+        padding: 0 15px;
+    }
+    .service-content__item{
+        width: 100%;
+        align-items: center;
+    }
+    .service-content__img{
+        width: 95%;
+    }
+    .project{
+        padding: 0 15px;
+    }
+    .project-list{
+        flex-direction: column;
+    }
+    .project-list__item{
+        width: 100%;
+    }
+    .choose{
+        padding: 0 15px;
+    }
+    .contact{
+        padding: 0 15px;
+    }
+    .contact-container{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+        align-items: center;
+    }
+    .form__list{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .contact-container{
+        padding: 0 15px 20px 15px;
+    }
+    .contact-form button{
+        margin: 0;
+    }
+    .footer{
+        padding: 8px 0 8px 15px;
+    }
+}
+
+@media(max-width: 400px){
+    .service-content__item{
+        width: 100%;
+        align-items: center;
+    }
+    .service-content__img{
+        width: 100%;
     }
 }
