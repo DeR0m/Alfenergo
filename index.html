@@ -206,13 +206,14 @@
                             </div>
                         
                             <div class="contact-form">
-                                <form class="form__list" action="">
-                                    <input type="text" placeholder="Ваше имя">
-                                    <input type="tel" placeholder="Номер телефона">
-                                    <input type="email" placeholder="Ваш Email">
-                                    <textarea placeholder="Ваше сообщение"></textarea>
-                                    <button type="submit">Связаться с нами</button>
+                                <form id="mailForm" class="form__list" action="">
+                                    <input type="text" id="name" placeholder="Ваше имя">
+                                    <input type="tel" id="tel" placeholder="Номер телефона">
+                                    <input type="email" id="email" placeholder="Ваш Email">
+                                    <textarea id="message" placeholder="Ваше сообщение"></textarea>
+                                    <button type="button" id="sendMail">Связаться с нами</button>
                                 </form>
+                                <div id="errorMass"></div>
                             </div>
                         </div>
                 </div>
@@ -227,8 +228,9 @@
         </footer>
     </div>
 
-    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/formMail.js"></script>
 </body>
 </html>

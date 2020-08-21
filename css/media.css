@@ -329,6 +329,9 @@
 }
 
 @media(max-width: 600px){
+    .home{
+        height: 500px;
+    }
     .item__header{
         font-size: 35px;
     }
@@ -398,6 +401,10 @@
 }
 
 @media(max-width: 400px){
+    .home-header p{
+        margin-top: -5px;
+        font-size: 17px;
+    }
     .service-content__item{
         width: 100%;
         align-items: center;
