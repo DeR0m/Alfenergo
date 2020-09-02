@@ -1,4 +1,13 @@
 $(document).ready(function(){
+    $('a[href^="#"]').click(function(){
+        var target = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(target).offset().top-50
+        }, 500);
+    });
+});
+
+$(document).ready(function(){
     $('.header__burger').click(function(event){
         $('.header__burger,.bottom-navigation').toggleClass('active');
         $('body').toggleClass('lock');
@@ -16,3 +25,4 @@ function ibg(){
 }
     
     ibg();
+

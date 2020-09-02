@@ -592,6 +592,10 @@ body{
     box-shadow: none;
 }
 
+#erconts{
+    display: none;
+}
+
 .footer{
     font-family: var(--headFont);
     width: 100%;
