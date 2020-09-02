@@ -143,10 +143,29 @@ body{
     padding: 0 15px;
 }
 
+.bottom-navigation__contact{
+    display: none;
+}
+
+.bottom-navigation__item-contact{
+    list-style: none;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
 .bottom-navigation__link{   
     text-decoration: none;
     color: var(--blue);
     transition: all 0.3s ease 0s;
+}
+.bottom-navigation__link-contact{   
+    text-decoration: none;
+    color: var(--blue);
+    transition: all 0.3s ease 0s;
+}
+
+.bottom-navigation__link-contact:hover, .bottom-navigation__link-contact:focus, .bottom-navigation__link-contact:active{
+    color: var(--orange);
 }
 
 .bottom-navigation__link:hover, .bottom-navigation__link:focus, .bottom-navigation__link:active{

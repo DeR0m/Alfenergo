@@ -14,6 +14,13 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function() {
+    $('.bottom-navigation__link').click(function(event) {
+        $('.header__burger,.bottom-navigation').removeClass('active');
+        $('body').removeClass('lock')
+    });
+});
+
 function ibg(){
 
     let ibg=document.querySelectorAll(".ibg");
